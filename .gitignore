@@ -1,0 +1,16 @@
+# Go build outputs
+*.so
+*.test
+
+# MapReduce generated files
+**/mr-out*
+**/mr-[0-9]*-[0-9]*
+
+# Lab 1 compiled binaries
+mapreduce/src/main/mrcoordinator
+mapreduce/src/main/mrworker
+mapreduce/src/main/mrsequential
+
+# OS / editor files
+.DS_Store
+.vscode/
